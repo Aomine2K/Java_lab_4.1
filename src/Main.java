@@ -12,6 +12,10 @@ public class Main {
         c) stworzyć enum KolorEnum z przykładowymi kolorami,
         d) stworzyć jedną metodę z 2 parametrami wymyśloną przez siebie,
         */
+
+
+
+
    }
 
     public interface Budynek{
@@ -36,39 +40,7 @@ public class Main {
         (gettery i settery najlepiej wygenerować: Code/Prawy myszy --> Generate --> getters/setters/toString)
         d) stworzyć jedną dowolną metodę przez siebie
         */
-public class Dom implements Budynek{
 
-
-            @Override
-            public void powierzchnia(double pow) {
-
-            }
-
-            @Override
-            public void adresBudynku(String adres) {
-
-            }
-
-            @Override
-            public void liczbaOkien(int value) {
-
-            }
-
-            @Override
-            public void liczbaMieszkancow(int value) {
-
-            }
-
-            @Override
-            public void kolorDomu(KolorEnum kolor) {
-
-            }
-
-            @Override
-            public void liczbaMieszkancow(int ilosc, int liczbaPolakow) {
-
-            }
-        }
 
 
 
@@ -80,5 +52,8 @@ public class Dom implements Budynek{
         b) wykorzystać wszystkie metody do implementacji pól
         c) wyświetlić w konsoli metodę toString (na obu objektach) opisującą zachowanie klasy Dom
         */
+
+
+
     }
 }
