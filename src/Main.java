@@ -12,25 +12,37 @@ public class Main {
         c) stworzyć enum KolorEnum z przykładowymi kolorami,
         d) stworzyć jedną metodę z 2 parametrami wymyśloną przez siebie,
         */
+        Dom dom1 = new Dom();
+        dom1.setBudynek("Muzykant");
+        dom1.powierzchnia(200.0);
+        dom1.adresBudynku("Kolejowa 10");
+        dom1.liczbaOkien(56);
+        dom1.liczbaMieszkancow(8);
+        dom1.poleBudynku(30.0, 48.0);
+        dom1.kolorDomu(KolorEnum.Czarny);
+
+        System.out.println(dom1.toString());
+
+        System.out.println();
+
+        Budynek dom2 = new Dom();
+        dom2.setBudynek("Wika");
+        dom2.powierzchnia(100.0);
+        dom1.adresBudynku("Długa 2");
+        dom1.liczbaOkien(11);
+        dom1.liczbaMieszkancow(1);
+        dom1.poleBudynku(19.0, 33.0);
+        dom1.kolorDomu(KolorEnum.Biały);
+
+        System.out.println(dom2.toString());
+
+        System.out.println();
 
 
 
 
    }
 
-    public interface Budynek{
-
-    void  powierzchnia(double pow);
-
-    void adresBudynku(String adres);
-
-    void liczbaOkien(int value);
-
-    void liczbaMieszkancow(int value);
-
-    void kolorDomu(KolorEnum kolor);
-
-    void liczbaMieszkancow (int ilosc, int liczbaPolakow);
 
 
         /* zad.2
@@ -56,4 +68,4 @@ public class Main {
 
 
     }
-}
+

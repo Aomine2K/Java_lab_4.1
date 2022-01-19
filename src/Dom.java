@@ -1,47 +1,50 @@
- public class Dom implements Main.Budynek {
+ public class Dom implements Budynek {
+
+     private String budynek;
+     private double pow;
+     private String adres;
+     private int okna;
+     private int mieszkancy;
+     private double poleBudynku;
+     private KolorEnum kolor;
 
 
         @Override
-        public void powierzchnia(double pow) {
-
+        public double powierzchnia(double pow) {
+            return pow;
         }
 
         @Override
-        public void adresBudynku(String adres) {
-
+        public String adresBudynku(String adres) {
+        return adres;
         }
 
         @Override
-        public void liczbaOkien(int value) {
-
+        public int liczbaOkien(int value) {
+            return okna;
         }
 
         @Override
-        public void liczbaMieszkancow(int value) {
-
-        }
+        public void liczbaMieszkancow(int mieszkancy) { this.mieszkancy = mieszkancy;}
 
         @Override
         public void kolorDomu(KolorEnum kolor) {
-
+            this.kolor = kolor;
         }
 
-        @Override
-        public void liczbaMieszkancow(int ilosc, int liczbaPolakow) {
+     @Override
+     public void liczbaMieszkancow(int ilosc, int liczbaPolakow) {
+
+     }
 
 
-        }
-        private String budynek;
-        private double pow;
-        private String adres;
-        private int okna;
-        private int mieszkancy;
-        private double poleBudynku;
-        private KolorEnum kolor;
-
-        public String getBudynek() {
+     public String getBudynek() {
             return budynek;
         }
+
+
+     public void poleBudynku(double v, double v1) {
+     }
 
         public void setBudynek(String budynek) {
             this.budynek = budynek;
@@ -107,5 +110,7 @@
 
         };
 
-    }
-}
+
+
+
+ }
