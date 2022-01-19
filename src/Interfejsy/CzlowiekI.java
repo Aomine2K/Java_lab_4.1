@@ -1,5 +1,7 @@
+package Interfejsy;
+
 public interface CzlowiekI {
 
     void setImie(String imie);
-    void setNazwisko(String nazwisko);
+    void setNazwisko(int nazwisko);
 }
