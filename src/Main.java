@@ -12,6 +12,22 @@ public class Main {
         c) stworzyć enum KolorEnum z przykładowymi kolorami,
         d) stworzyć jedną metodę z 2 parametrami wymyśloną przez siebie,
         */
+   }
+
+    public interface Budynek{
+
+    void  powierzchnia(double pow);
+
+    void adresBudynku(String adres);
+
+    void liczbaOkien(int value);
+
+    void liczbaMieszkancow(int value);
+
+    void kolorDomu(KolorEnum kolor);
+
+    void liczbaMieszkancow (int ilosc, int liczbaPolakow);
+
 
         /* zad.2
         a) napisać klasę Dom implementującą interfejs Budynek,
@@ -20,6 +36,43 @@ public class Main {
         (gettery i settery najlepiej wygenerować: Code/Prawy myszy --> Generate --> getters/setters/toString)
         d) stworzyć jedną dowolną metodę przez siebie
         */
+public class Dom implements Budynek{
+
+
+            @Override
+            public void powierzchnia(double pow) {
+
+            }
+
+            @Override
+            public void adresBudynku(String adres) {
+
+            }
+
+            @Override
+            public void liczbaOkien(int value) {
+
+            }
+
+            @Override
+            public void liczbaMieszkancow(int value) {
+
+            }
+
+            @Override
+            public void kolorDomu(KolorEnum kolor) {
+
+            }
+
+            @Override
+            public void liczbaMieszkancow(int ilosc, int liczbaPolakow) {
+
+            }
+        }
+
+
+
+
 
         /* zad.3
         a) w klasie Main stworzyć 2 objekty typu Dom deklarując pierwszy objekt Typem Dom,
