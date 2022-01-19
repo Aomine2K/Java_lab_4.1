@@ -7,7 +7,7 @@ public class Pracownik implements PracownikI{
 
 
     private String imie;
-    private int nazwisko;
+    private String nazwisko;
     private String stanowisko;
     private int wynagrodzenie;
     private double premia;
@@ -21,14 +21,16 @@ public class Pracownik implements PracownikI{
         this.imie = imie;
     }
 
-    public int getNazwisko() {
+    @Override
+    public void setNazwisko(String nazwisko) {
+        this.nazwisko = nazwisko;
+    }
+
+    public String getNazwisko() {
         return nazwisko;
     }
 
-    @Override
-    public void setNazwisko(int nazwisko) {
-        this.nazwisko = nazwisko;
-    }
+
 
     public String getStanowisko() {
         return stanowisko;

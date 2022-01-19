@@ -4,7 +4,7 @@ import Interfejsy.StudentI;
 public class Student implements StudentI{
 
     private String imie;
-    private int nazwisko;
+    private String nazwisko;
     private String kierunek;
     private String specjalizacja;
     private int nrindeksu;
@@ -18,12 +18,13 @@ public class Student implements StudentI{
         this.imie = imie;
     }
 
-    public int getNazwisko() {
+
+    public String getNazwisko() {
         return nazwisko;
     }
 
     @Override
-    public void setNazwisko(int nazwisko) {
+    public void setNazwisko(String nazwisko) {
         this.nazwisko = nazwisko;
     }
 
